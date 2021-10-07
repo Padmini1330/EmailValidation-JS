@@ -8,6 +8,9 @@ function validateEmail(email)
 }
 try
 {
+
+console.log("---------- Valid Emails ----------");
+
 validateEmail("abc@bridgelabz.co.in");
 validateEmail( "abc@gmail.com.com");
 validateEmail( "abc@yahoo.com");
