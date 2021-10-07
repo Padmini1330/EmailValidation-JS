@@ -7,6 +7,7 @@ function validateEmail(email)
     else
         throw email + " is Invalid";
 }
+
 try
 {
     validateEmail("abca.abc@gmail.com");
