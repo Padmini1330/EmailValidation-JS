@@ -7,7 +7,6 @@ function validateEmail(email)
     else
         throw email + " is Invalid";
 }
-
 try
 {
     validateEmail("abcde@bridgelabz.co");
