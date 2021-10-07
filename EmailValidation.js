@@ -1,4 +1,4 @@
-const emailRegex = RegExp("^[a-zA-Z]+[@]{1}[a-zA-Z][.a-zA-Z]*$");  
+const emailRegex = RegExp("^[a-zA-Z]+[@]{1}[a-zA-Z]*[.]{1}[a-zA-Z]*$");  
 
 function validateEmail(email)
 {
@@ -10,7 +10,7 @@ function validateEmail(email)
 
 try
 {
-    validateEmail("abc@abc.bridgelabz.com");
+    validateEmail("abcde@bridgelabz.co");
     validateEmail(".abc@abc.com");
 }
 catch(e)
